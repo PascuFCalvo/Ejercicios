@@ -1,9 +1,9 @@
 
-acabar = 0
-intentos = 0
+
 volver_a_empezar = "si"
 
 while volver_a_empezar == "si":
+    intentos = 0
 
     num_adivinar = int(input("Jugador 1, introduce un numero para adivinar del 1 al 100: "))
     num_juego = 0
