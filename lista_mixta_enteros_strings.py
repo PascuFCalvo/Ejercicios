@@ -13,5 +13,7 @@ for posicion in lista_base:
     if type(posicion) == int:
         lista_enteros.append(posicion)
 
+lista_enteros = [int(posicion) for posicion in lista_enteros]
+
 print (lista_strings)
 print (lista_enteros)
