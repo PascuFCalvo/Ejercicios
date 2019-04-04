@@ -1,5 +1,7 @@
 
 
+#cambia vocales por i
+
 string_usuario = input("Escribe una frase: ")
 nueva_string =""
 vocal = "aeiouAEIOU"
